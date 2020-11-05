@@ -53,7 +53,7 @@ void draw(){
   void show(){
     fill(mColor);
     ellipse((float)mX,(float)mY, (float)mSize,(float)mSize);
-    mHoleSize -= (double)count/600.0;
+    mHoleSize -= (int)(count/600);
     
   }
   
