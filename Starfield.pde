@@ -101,8 +101,8 @@ void draw(){
     odd(){
       mSize = 20;
       oAng = 0;
-      mX = 225;
-      mY=150;
+      mX = 235;
+      mY=130;
     }
     void show(){
       //show and rotate on its center
